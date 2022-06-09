@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lora', serif;
+}
+
+body{
+    background-color: #001f4b; /*https://colorpalettes.net/color-palette-4419/*/
+    color: #04BBEC;
+    max-width: 1100px;
+    margin: auto;
+}
+.ptext {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px 25px 10px 30px;
+    background-color: #04BBEC;
+    color: #001f4b;
+}
+
+.linkptext {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.pcalculadora {
+    font-size: 35px;
+    text-align: center;
+}
+
+#divcalculadora {
+    margin: auto;
+    margin-top: 50px;
+    border: 3px solid #04BBEC;
+    width: 300px;
+    height: 400px;
+}
+
+.visor {
+    margin: auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 100px;
+    background-color: #04BBEC;
+}
+
+#numeroVisor {
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    color: #001f4b;
+    font-size: 30px;
+}
+
+.botoesFuncionamento {
+    margin: auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+    background-color: #04BBEC;
+    text-align: center;
+    padding: 2px;
+}
+
+#btnLigaDesliga, #btnm1, #btnm2, #btnm2 {
+    background-color: #001f4b;
+    color: #04BBEC;
+    margin: 2.5px 0px 0px 0px;
+    padding: auto;
+    border: 2px solid #001f4b;
+    width: 60px;
+}
+
+.botoesLmpDel {
+    margin: auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 30px;
+    background-color: #04BBEC;
+    text-align: center;
+    padding-top: 1px;
+}
+
+#btnLimparTela, #btnDeletar{
+    background-color: #001f4b;
+    color: #04BBEC;
+    font-size: 15px;
+    margin: 0px 0px 0px 14px;
+    padding: auto;
+    border: 2px solid #001f4b;
+    border-radius: 50%;
+}
+
+#btnporcentagem, #btnraiz, #btnxquadrado {   
+    width: 28px;
+    height: 28px;
+    background-color: #001f4b;
+    color: #04BBEC;
+    font-size: 15px;
+    margin: 0px 0px 0px 14px;
+    border: 2px solid #001f4b;
+    border-radius: 100%;
+}
+
+.divbotoes {
+    margin: auto;
+    margin-top: 10px;
+    width: 280px;
+    height: 185px;
+    background-color: #04BBEC;
+}
+
+.botoesNumeracao {
+    margin-top: 0px;
+    width: 200px;
+    height: 185px;
+    background-color: #04BBEC;
+    float: left;
+}
+
+.botoesAritmeticos {
+    text-align: center;
+}
+
+#btnum, #btndois, #btntres, #btnquatro, #btncinco,
+#btnseis, #btnsete, #btnoito, #btnnove, #btnzero, 
+#btnigual, #btnvirgula, #btnmultiplicacao, #btnDivisao,
+#btnSoma, #btnSubtracao {
+    background-color: #001f4b;
+    color: #04BBEC;
+    font-size: 20px;
+    margin: 3px 10px 0px 10px;
+    padding: auto;
+    width: 43px;
+    height: 43px;
+    border: 2px solid #001f4b;
+    border-radius: 50%;
+}

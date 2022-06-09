@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Lista de afazeres</title>
+    <link rel="stylesheet" href="assets/css/stylecalculadora.css">
+    <link rel="icon" type="image/x-icon" href="assets/img/DLFS-logo-2.png">
+</head>
+<body>
+    <p class="ptext">Projeto desenvolvido como parte da aula Introdução a JavaScript do bootcamp realizado pela 
+        <a href="https://www.dio.me/" class="linkptext" target="_blank">Dio</a> e oferecido pela 
+        <a href="https://www.tqi.com.br/" class="linkptext" target="_blank">TQI</a>.
+    </p>
+    <p class="pcalculadora">Calculadora JavaScript</p>
+    <div id="divcalculadora">
+        <div class="visor">
+            <p id="numeroVisor">Inserir Valor</p>
+        </div>
+        <div class="botoesFuncionamento">
+            <button id="btnLigaDesliga" name="ligadesliga" type="submit" value="LigaDesliga">On/Off</button>            
+            <button id="btnm1" name="m1" type="submit" value="M1">M1</button>                        
+            <button id="btnm2" name="m2" type="submit" value="M2">M2</button>                       
+            <button id="btnm2" name="m3" type="submit" value="M3">M3</button>
+        </div>
+        <div class="botoesLmpDel">            
+            <button id="btnLimparTela" name="limpartela" type="submit" value="LimparTela">AC</button>
+            <button id="btnDeletar" name="deletar" type="submit" value="Deletar">Del</button>            
+            <button id="btnporcentagem" name="porcentagem" type="submit" value="Porcentagem">%</button>                        
+            <button id="btnraiz" name="raiz" type="submit" value="Raiz">√</button>                       
+            <button id="btnxquadrado" name="xquadrado" type="submit" value="xquadrado">x²</button>
+        </div>
+        <div class="divbotoes">
+            <div class="botoesNumeracao">
+                <button id="btnnove" name="nove" type="submit" value="Nove">9</button>
+                <button id="btnoito" name="oito" type="submit" value="Oito">8</button>
+                <button id="btnsete" name="sete" type="submit" value="Sete">7</button>
+                <button id="btnseis" name="seis" type="submit" value="Seis">6</button>
+                <button id="btncinco" name="cinco" type="submit" value="Cinco">5</button>
+                <button id="btnquatro" name="quatro" type="submit" value="Quatro">4</button>
+                <button id="btntres" name="tres" type="submit" value="Tres">3</button>
+                <button id="btndois" name="dois" type="submit" value="Dois">2</button>
+                <button id="btnum" name="um" type="submit" value="Um">1</button>
+                <button id="btnvirgula" name="virgula" type="submit" value="virgula">,</button>
+                <button id="btnzero" name="zero" type="submit" value="zero">0</button>
+                <button id="btnigual" name="igual" type="submit" value="igual">=</button>
+            </div>
+            <div class="botoesAritmeticos">
+                <button id="btnmultiplicacao" name="multiplicacao" type="submit" value="Multiplicacao">x</button>
+                <button id="btnDivisao" name="divisao" type="submit" value="Divisao">/</button>
+                <button id="btnSoma" name="soma" type="submit" value="Soma">+</button>
+                <button id="btnSubtracao" name="subtracao" type="submit" value="Subtracao">-</button>
+            </div>
+        </div>
+        
+    </div>
+    <script src="assets/js/jsCalculadora.js"></script>
+</body>
+</html>
